@@ -4,10 +4,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Welcome to Jekyll!</title>
+    <title>Starting A New Blog With Jekyll</title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
-    <link rel="canonical" href="http://yourdomain.com/jekyll/update/2014/05/24/welcome-to-jekyll/">
+    <meta name="description" content="blog">
+    <link rel="canonical" href="http://chrbanks.github.io/jekyll/blog/2014/05/25/starting-a-new-blog-with-jekyll/">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/main.css">
@@ -21,7 +21,7 @@
 
   <div class="wrap">
 
-    <a class="site-title" href="/">Your awesome title</a>
+    <a class="site-title" href="/">My super awesome blog</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -56,23 +56,32 @@
       <div class="post">
 
   <header class="post-header">
-    <h1>Welcome to Jekyll!</h1>
-    <p class="meta">May 24, 2014</p>
+    <h1>Starting A New Blog With Jekyll</h1>
+    <p class="meta">May 25, 2014 • Chris Banks</p>
   </header>
 
   <article class="post-content">
-  <p>You’ll find this post in your <code>_posts</code> directory - edit this post and re-build (or run with the <code>-w</code> switch) to see your changes!
-To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention: YYYY-MM-DD-name-of-post.ext.</p>
+  <p>This is a log of my experiences setting up a new blog with Jekyll.</p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<p>I’ve been reading blogs for a long time.  It’s a great way to learn and keep up with things.  I’ve also flirted with the idea of creating my own programming blog as a way to share information and improve my writing skills among other things.  At various points I would create accounts at free hosted blog sites, but I would never actually do anything with them, coming up with all sorts of excuses:</p>
 
-<div class="highlight"><pre><code class="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">&quot;Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">&quot;</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">&#39;Tom&#39;</span><span class="p">)</span>
-<span class="c1">#=&gt; prints &#39;Hi, Tom&#39; to STDOUT.</span></code></pre></div>
+<ul>
+  <li>“What if I post something incredibly stupid?”</li>
+  <li>“What if I put a lot of effort into this and no one cares?”</li>
+  <li>“I prefer online anonymity”</li>
+</ul>
 
-<p>Check out the <a href="http://jekyllrb.com">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>.</p>
+<p>Things like these have done nothing but prevent me from moving toward my goals. So recently I decided I was just going to push forward and start blogging.  Then it was time to figure out how I was going to do it.</p>
+
+<h1 id="why-i-chose-jekyll">Why I Chose Jekyll</h1>
+
+<p>I looked into several tools to build a blog with, but settled on three to look into deeper: WordPress, Ghost, and Jekyll.  I spent several days after work researching them and comparing.  WordPress seemed like a lot more than I really need at the moment.  Ghost was similar.  I really didn’t want to have to worry about databases, security, web hosting plans, etc. which led to me choosing Jekyll.  If there comes a point where Jekyll no longer meets my needs I’ll see about something else.</p>
+
+<h1 id="installing-jekyll">Installing Jekyll</h1>
+
+<p>Setting up a new blog was as simple as following the documentation’s <a href="http://jekyllrb.com/docs/quickstart/">Quick-start guide</a>.  This generated the default blog files, and after running the server I was able to see the blog in action locally.  The next step was to put the blog on <a href="https://help.github.com/articles/using-jekyll-with-pages">Github Pages</a>.</p>
+
+<p>This is where I came across an issue.  Github pages doesn’t yet support Jekyll 2.0.3, but this is what I downloaded.  So for now I’m pushing the build output to my <a href="https://github.com/chrbanks/chrbanks.github.io">repository</a>.  Once Github Pages is updated to support the newer version I’ll see about putting the source in the repository instead.</p>
 
 
   </article>
@@ -85,11 +94,11 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
 
   <div class="wrap">
 
-    <h2 class="footer-heading">Your awesome title</h2>
+    <h2 class="footer-heading">My super awesome blog</h2>
 
     <div class="footer-col-1 column">
       <ul>
-        <li>Your awesome title</li>
+        <li>My super awesome blog</li>
         <li><a href="mailto:your-email@domain.com">your-email@domain.com</a></li>
       </ul>
     </div>
@@ -136,7 +145,7 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
     </div>
 
     <div class="footer-col-3 column">
-      <p class="text">Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</p>
+      <p class="text">blog</p>
     </div>
 
   </div>
